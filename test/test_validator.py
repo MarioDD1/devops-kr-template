@@ -1,3 +1,4 @@
+from validator import validate_email
 # tests/test_validator.py
 def test_validate_email():
     assert validate_email("test@example.com") == True
